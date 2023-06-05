@@ -1,0 +1,99 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    left: 0;
+    right: 0;
+  }
+  
+  .navigation{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .navigation li a {
+    color: white;
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(41, 152, 203);
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 40px 30px;
+    font-family: Poppins, Helvetica, sans-serif;
+  }
+  
+  .navigation  li.logo {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  .head {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+  }
+  
+  #main {
+    margin-left: 150px;
+    margin-bottom: 150px;
+  }
+  
+  h2 {
+    color: #30482C;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: left;
+  }
+  
+  h3 {
+    color: #30482C;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  p {
+    color: grey;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: left;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: #769570;
+    border: 2px solid #769570;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 2px solid #769570;
+    color: #769570;
+  }
+  
